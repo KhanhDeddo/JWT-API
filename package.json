@@ -1,0 +1,31 @@
+{
+  "name": "jwtapi",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "main": "./src/server.js",
+  "keywords": [],
+  "author": "khanhdeddo",
+  "license": "ISC",
+  "description": "JWI API",
+  "scripts": {
+    "lint": "eslint ./src",
+    "production": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0",
+    "nodemon": "^3.1.10"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
